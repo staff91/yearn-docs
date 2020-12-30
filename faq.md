@@ -270,113 +270,113 @@ Ma se pensate che qualcosa possa essere migliorato, o se avete trovato un bug, n
   2. promote to YIP \(usually done by mods\), add YIP to github, put on chain
   3. announce
 
-#### Who can make a proposal?
+#### Chi può fare una proposta?
 
-- Anyone can post a proposal both on the forum and on-chain.
+- Chiunque può postare una proposta sia sul forum che online.
 
-### Voting
+### Votazione
 
-#### How do I vote?
+#### Come si vota?
 
-- Stake your YFI and then you can cast your vote for YIPs that are on-chain on the voting [dashboard](https://ygov.finance/vote)
+- Mettete in stake il vostro YFI e poi potete votare per gli YIP che sono online sulla scheda di voto [cruscotto](https://ygov.finance/vote)
 
-#### Can I vote if my YFI is in the YFI vault?
+#### Posso votare se la mia YFI è nel vault della YFI?
 
-- No, your YFI must be staked in the governance [contract](https://ygov.finance/staking) in order to vote.
+- No, la tua YFI deve essere investita nella governance [contratto](https://ygov.finance/staking) per poter votare.
 
-#### Where can I view the YIPs?
+#### Dove posso vedere gli YIP?
 
-- You can view them on the voting [dashboard](https://ygov.finance/vote) if you login to your web3 account or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
+- È possibile visualizzarli sulla dashboard di voto [dashboard](https://ygov.finance/vote) se si accede al proprio account web3 o a [yips.yearn.finance](https://yips.yearn.finance/all-yip).
 
-#### Why should I stake? What is the APY \(Annual Percentage Yield\)?
+#### Perchè dovrei partecipare? Che cos'è l'APY \(Percentuale annuale di rendimento)?
 
-- You should stake if you want to vote on YIPs and get rewards that are generated from the Yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
+- Si dovrebbe investire se si vuole votare su YIP e ottenere ricompense che vengono generate dall'ecosistema YEARN. L'APY per lo staking non è attualmente elencata nell'IU. Puoi chiedere in chat qual è il tasso.
 
-#### What do I have to do to get rewards with my YFI?
+#### Cosa devo fare per ottenere dei premi con la mia YFI?
 
-- All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards if the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
-- Note that if you stake you get rewards \(as long as they are not going to the treasury\) but you can only claim them within 3 days of voting.
+- Tutto quello che devi fare è puntare YFI su [ygov.finance/stake](https://ygov.finance/stake) e otterrai dei premi se la tesoreria è pari o superiore a 500k usd. Puoi controllare l'indirizzo della tesoreria [qui](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
+- Si noti che se si investe, si ottengono ricompense \(fintanto che non vanno alla tesoreria), ma si possono richiedere solo entro 3 giorni dal voto.
 
-#### Does staking my YFI matter for voting?
+#### Lo staking della mia YFI è importante per il voto?
 
-- Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 to have your votes count. As of now, you can vote without staking, but you will waste your gas and it won't count so make sure you have staked first if you want to vote.
+- Sì. Devi puntare la tua YFI su [ygov.finance/stake](https://ygov.finance/stake) nella scheda v2 sotto Governance V2 per far contare i tuoi voti. A partire da ora, potrai votare senza investire, ma sprecherai il gas e non conterà, quindi assicurati di aver investito per primo se vuoi votare.
 
-#### What if I want to take my YFI out before the end of the vote lock?
+#### Cosa succede se voglio togliere la mia YFI prima della fine del blocco del voto?
 
-- You can't, sorry. The lock lasts 3 days after you last voted, until then you cannot unstake your tokens.
-- If you try to unstake your tokens before the lock ends you will see a very high gas cost, this is an error, you will not be able to unstake until the 3 day lock has ended
+- Non si può, mi dispiace. Il blocco dura 3 giorni dopo l'ultima votazione, fino ad allora non si possono togliere i token.
+- Se provi a ritirare i tuoi token prima della fine della blocco vedrai un costo del gas molto alto, questo è un errore, non potrai ritirarli fino alla fine dei 3 giorni di blocco.
 
-#### I voted and I know the vote lock is 3 days, is there anywhere I can see exactly how long I have left till I can unstake my YFI?
+#### Ho votato e so che il blocco del voto è di 3 giorni, c'è un posto dove posso vedere esattamente quanto tempo mi resta prima di poter disimpegnare la mia YFI?
 
-- Yes! You can read the contract directly ygov.finance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992#readContract) go to 28 votelock and input your eth address. This will give you the eth block number when you can unstake.
+- Sì! Puoi leggere il contratto direttamente su ygov.finance staking [contratto](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992#readContract) vai su 28 votelock e inserisci il tuo indirizzo eth. Questo ti darà il numero del blocco di eth quando potrai disimpegnare.
 
-#### What’s the difference between voting for a poll on the forum and an on-chain vote?
+#### Qual è la differenza tra il voto per un sondaggio sul forum e un voto on-chain?
 
-- A poll just gauges the sentiment of what the community is feeling on the proposal while a on-chain vote will be binding and will take effect if it passes.
+- Un sondaggio si limita a misurare il sentimento della community sulla proposta, mentre un voto on-chain sarà vincolante e avrà effetto se verrà approvato.
 
-#### What about the new gasless voting thing?
+#### E il nuovo sistema di voto senza gas?
 
-- We now have an off-chain signaling system that uses staked balances from ygov. This replaces the older, informal forum polls which were vulnerable to sybil attacks. It can do multiple choice and doesn't cost gas to use, you sign with your wallet instead. We still use the normal on-chain voting system for YIPs.
+- Ora abbiamo un sistema di segnalazione off-catena che utilizza i bilanci investiti di ygov. Questo sostituisce i vecchi sondaggi informali del forum che erano vulnerabili agli attacchi di Sybil. Può fare la scelta multipla e non costa il gas da usare, si firma invece con il portafoglio. Utilizziamo ancora il normale sistema di voto on-chain per YIP.
 
-#### How long is my YFI tied up if I stake it?
+#### Per quanto tempo è vincolato il mio YFI, se lo investo?
 
-- Your YFI is locked for 3 days after you vote.
+- Il tuo YFI è vincolato per 3 giorni dopo il voto.
 
-#### Why can't I claim my staking rewards!
+#### Perchè non posso riscuotere i miei premi in stake?
 
-- To claim your staking rewards you have to 1\) be staked and 2\) have voted within 3 days to be able to claim them. This will be fixed in an update soon.
+- Per riscuotere i tuoi premi in stake bisogna 1\) averli investiti e 2\) aver votato entro 3 giorni per poterli riscuotere. Questo verrà stabilito a breve in un aggiornamento.
 
 ### yDAO
 
-- Pokemol [site](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862/).
+- Pokemol [sito](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862/).
 - Forum [post](https://gov.yearn.finance/t/ydao-for-community-funding/2243).
 
-#### What is its purpose?
+#### Qual è il suo scopo?
 
-- Used to fund value-added contributions to the Yearn ecosystem.
+- Serve a finanziare i contributi a valore aggiunto all'ecosistema Yearn.
 
-#### Who cares, how do I make money from this?
+#### Non mi importa, come faccio a guadagnarci?
 
-- You don't. This is solely for allocating funding for projects, and the YFI donated will be spent and your share value will be diluted.
+- Non ci si guadagna. Questo serve solo a stanziare fondi per progetti e il YFI donato sarà speso e il valore della tua quota sarà diluito.
 
-#### Who can join?
+#### Chi può aderire?
 
-- Open for anyone to join with a base rate of 1 Share = 0.1 YFI.
+- Aperto a chiunque possa aderire con un tasso di base di 1 azione = 0,1 YFI.
 
-#### How can I join?
+#### Come posso aderire?
 
-- Go here to [Pokemol](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862) sign in with your web3 account. Click New Proposal button in the top right. Click member.
-  - Title: your name/entity
-  - Description: “Pledging X amount of YFI in exchange for Y Shares” \(Please make this consistent with the amount being pledged at 0.1 YFI per share\)
-  - Link: Link to you or your entity \(Website, Twitter, Linkedin\)
-  - Shares Requested: The number of Shares being requested
-  - Token Tribute: The amount of YFI being pledged \(you will need to unlock YFI\)
-  - Loot: The number of shares being requested
-  - After you submitted the two transactions and are in the new member queue, you will need a sponsor. Please copy the link to your proposal and let us know you’d like to join in the [yDAO Telegram channel](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA)
+- Vai qui per [Pokemol](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862) accedi con il tuo account web3. Clicca sul pulsante Nuova Proposta in alto a destra. Clicca su membro.
+  - Titolo: il tuo nome/entità
+  - Descrizione: "Offerta di garanzia di un importo X di YFI in cambio di azioni Y" \(Si prega di renderlo coerente con l'importo in stake a 0,1 YFI per azione)
+  - Link: Link a te o alla tua entità \(Sito web, Twitter, Linkedin\)
+  - Azioni richieste: Il numero di Azioni richieste
+  - Tributo con token: La quantità di YFI che è stata promessa in stake \(dovrai sbloccare YFI)
+  - Il bottino: Il numero di azioni richieste
+  - Dopo che avrai inviato le due transazioni e che ti troverai nella coda dei nuovi membri, avrai bisogno di uno sponsor. Ti preghiamo di copiare il link alla tua proposta e di farci sapere che intendi unirti al [canale Telegram yDAO](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA)
 
-#### How can I request funding?
+#### Come posso richiedere un finanziamento?
 
-- The same ways as joining except instead of click member click the funding tab and fill in the details of your request. You can ask in the [telegram chat](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) if you have any questions.
+- Come per l'adesione, ma invece di cliccare su membro, clicca sulla scheda di finanziamento e compila i dettagli della tua richiesta. Potete chiedere nella [chat telegram](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) se avete domande.
 
-#### I don't speak English, when will everything be translated?
+#### Non parlo inglese, quando sarò tradotto il tutto?
 
-- We are working on translating to other languages but it will take time. For now you can go to your language in the global section in [Discord](http://discord.yearn.finance/).
+- Stiamo lavorando per tradurre in altre lingue, ma ci vorrà del tempo. Per ora potete cliccare sulla vostra lingua nella sezione globale in [Discord](http://discord.yearn.finance/).
 
 ## Community
 
-### Does Yearn have a manifesto?
+### Yearn ha un manifesto?
 
-- Some contributors got together and wrote a post about how they think about the protocol, with others joining in to support it. It's available [on the forum](https://gov.yearn.finance/t/how-we-think-about-yearn/).
+- Alcuni collaboratori si sono riuniti e hanno scritto un post su come pensano al protocollo, mentre altri si sono uniti per sostenerlo. È disponibile [sul forum](https://gov.yearn.finance/t/how-we-think-about-yearn/).
 
-### Is Andre Cronje in charge of Yearn?
+### Andre Cronje è il responsabile di Yearn?
 
-- Andre isn't in charge of Yearn, the YFI token holders make the decisions on how to govern Yearn, Andre is one of the developers in the Yearn ecosystem.
+- Andre non è responsabile di Yearn, i titolari del token YFI prendono le decisioni su come governare Yearn, Andre è uno degli sviluppatori dell'ecosistema YEARN.
 
-### What is the multisig and what do they do?
+### Cos'è il multisig e cosa fanno?
 
-- The multi-signature address is explained in detail in this [thread](https://gov.yearn.finance/t/yfi-minting-ownership/155). Basically, it is a 6 of 9 multi-signature account that has control over minting YFI if a vote to mint tokens has passed successfully.
+- L'indirizzo multisig è spiegato in dettaglio in questos [thread](https://gov.yearn.finance/t/yfi-minting-ownership/155). Fondamentalmente, è un account multisig 6 di 9 multisig che ha il controllo sul conio di YFI se un voto per coniare gettoni è passato con successo.
 
-### Who are the 9 multisig signers?
+### Chi sono i 9 firmatari multisig?
 
 - [Cp0x.com](https://twitter.com/kaplansky1/status/1285427247286046725)
 - [Daryllautk](https://twitter.com/Daryllautk/status/1285434908383444992)
@@ -388,26 +388,26 @@ Ma se pensate che qualcosa possa essere migliorato, o se avete trovato un bug, n
 - [Vasiliy Shapovalov, p2p.org](https://twitter.com/_vshapovalov/status/1299799139635679232)
 - [Mariano Conti, ex-MakerDAO](https://twitter.com/nanexcool)
 
-### Have the multisig signers changed?
+### I firmatari multisig sono cambiati?
 
-- Yes, [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) changed four of the signers
-- Outgoing signers were:
+- Sì, [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) ha cambiato quattro dei firmatari
+- I firmatari uscenti erano:
   - [Coopahtroopa](https://twitter.com/Cooopahtroopa/status/1285438650550038529)
   - [Michael, Curve.fi](https://twitter.com/CurveFinance/status/1285428322986389504)
   - [Calvin Liu](https://twitter.com/cjliu49/status/1285439553180798976)
   - [Damir Bandalo](https://twitter.com/damirbandalo/status/1285500362015875073)
 
-### What decisions can Andre make on his own?
+### Quali decisioni può prendere Andre da solo?
 
-- Andre can build out the Yearn ecosystem and come up with new products. Usually, he posts his thoughts and ideas on the [forum](https://gov.yearn.finance) or on his [medium blog](https://andrecronje.medium.com) for everyone to see.
+- Andre può costruire l'ecosistema YEARN e proporre nuovi prodotti. Di solito, pubblica i suoi pensieri e le sue idee sul [forum](https://gov.yearn.finance) o sul suo [blog medium](https://andrecronje.medium.com) affinché tutti possano vederli.
 
-### Does the multisig group tell him what to do?
+### Il gruppo multisig gli dice cosa fare?
 
-- They are in close contact with one another, but Andre's priorities are his own. They can be instructed via YIPs.
+- Sono in stretto contatto tra loro, ma le priorità di Andre sono le sue. Possono essere istruiti tramite YIPs.
 
-### Who else writes code for Yearn? Is there a team?
+### Chi altro scrive il codice per YEARN? C'è un team?
 
-- Yes! Meet some of the developers behind Yearn:
+- Sì! Conosci alcuni degli sviluppatori di Yearn:
 
   - [@banteg](https://gov.yearn.finance/u/banteg)
   - [@fubuloubu](https://gov.yearn.finance/u/fubuloubu)
@@ -416,65 +416,65 @@ Ma se pensate che qualcosa possa essere migliorato, o se avete trovato un bug, n
   - [@luciano](https://gov.yearn.finance/u/luciano)
   - [@orbxball](https://gov.yearn.finance/u/orbxball)
 
-### Does anyone get paid for working on Yearn?
+### Qualcuno viene pagato per lavorare su Yearn?
 
-- Yes. Yearn has a core team that receives recurring payments. Grants are also distributed to valuable contributors in a monthly basis. For instance, see the [September Grants Announcement](https://gov.yearn.finance/t/september-grants-announcement/7044).
+- Sì. Yearn ha un core team che riceve pagamenti ricorrenti. Le sovvenzioni vengono anche distribuite mensilmente ai collaboratori più importanti. Per esempio, si veda il [Annuncio delle sovvenzioni di settembre](https://gov.yearn.finance/t/september-grants-announcement/7044).
 
-### How can I work for Yearn?
+### Come posso lavorare per Yearn?
 
-- If you want to contribute to the project as well just reach out to our community managers on [Discord](http://discord.yearn.finance/)/[Telegram](https://t.me/yearnfinance)/[Twitter](https://twitter.com/iearnfinance). We'll also release soon a Contributor's Guide.
+- Se vuoi contribuire anche tu al progetto, contatta i nostri community manager su [Discord](http://discord.yearn.finance/)/[Telegram](https://t.me/yearnfinance)/[Twitter](https://twitter.com/iearnfinance). Presto pubblicheremo anche una Guida per i contributori.
 
-### Do you have any job openings?
+### C'è qualche posizione aperta?
 
-- Yes, we do! We need all kinds of people to help make the Yearn ecosystem a thriving product and to give value to YFI. You can ask in the Discord or Telegram about applying or post on the forum. State how you think you can add value to Yearn, and how much you think you should be paid from the community pool. Also, you can go to the [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) as well for funding on your work for the Yearn ecosystem.
+- Sì! Abbiamo bisogno di tutti i tipi di profili per contribuire a rendere l'ecosistema YEARN un prodotto fiorente e per dare valore a YFI. Puoi chiedere su Discord o su Telegram di candidarti o postare sul forum. Dicci come pensi di poter aggiungere valore a YEARN e quanto pensi di dover essere pagato dal pool della community. Inoltre, puoi anche andare al [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) per un finanziamento sul tuo lavoro per l'ecosistema Yearn.
 
-### How to Participate?
+### ome partecipare?
 
-- You can participate in YFI by voting on YIPs that are active, discussing the YIPs yet to be proposed on-chain on the forums and talking about YFI in the Telegram and Discord. If you know a second language help us translate the site and YIPs into that language.
+- Puoi partecipare a YFI votando gli YIP attivi, discutendo gli YIP ancora da proporre sui forum e parlando di YFI su Telegram e su Discord. Se sai una seconda lingua aiutaci a tradurre il sito e gli YIPs in quella lingua.
 
-### Ongoing efforts to improve the Yearn ecosystem
+### Sforzi continui per migliorare l'ecosistema Yearn
 
-- You can view the active YIPs [here](https://yips.yearn.finance/all-yip)
+- È possibile visualizzare gli YIP attivi [qui](https://yips.yearn.finance/all-yip)
 
-## User Interface
+## Interfaccia utente
 
-### Can I use the Yearn ecosystem dApps on my phone?
+### Posso usare le dApp dell'ecosistema Yearn sul mio telefono?
 
-- Yes, you have to use the Metamask browser
+- Sì, è necessario utilizzare il browser Metamask
 
-## Technical Support
+## Supporto tecnico
 
-### I sent my ETH transaction but it says pending? How do I fix this?
+### Ho inviato la mia transazione ETH ma dice in sospeso?. Come posso risolvere il problema?
 
-- You should always make sure to set your gas properly if you want a transaction to go through quickly. Check current gas prices at [Ethgasstation](https://ethgasstation.info/) or [gasnow](https://www.gasnow.org/).
-- If you're using MetaMask and you put your transaction through but it's going too slow, you have the option to speed it up by clicking the `speed up` button below your last pending transaction under "activity". This should resend the same TX again with a higher gas price to get it confirmed faster.
-- If you've tried everything and your transaction is still stuck pending, you can fix it by sending a transaction to the nonce of the first stuck transaction with a high gas price to overwrite the stuck queue. Here's a good [guide](https://ethgasstation.info/blog/stuck-transaction-guide) explaining how to do this.
+- Se si desidera che una transazione avvenga rapidamente, è necessario impostare il gas in modo corretto. Controllate i prezzi attuali del gas su [Ethgasstation](https://ethgasstation.info/) o [gasnow](https://www.gasnow.org/).
+- Se usate MetaMask e fate passare la vostra transazione ma sta andando troppo lentamente, avete la possibilità di velocizzarla cliccando il pulsante velocizza sotto la vostra ultima transazione in sospeso sotto "attività". Questo dovrebbe rispedire lo stesso TX di nuovo con un prezzo del gas più alto per farlo confermare più velocemente.
+- Se avete provato tutto e la vostra transazione è ancora bloccata in sospeso, potete sistemarla inviando una transazione al nonce della prima transazione bloccata con un prezzo del gas elevato per sovrascrivere la coda bloccata. Ecco una buona [guida](https://ethgasstation.info/blog/stuck-transaction-guide) che spiega come farlo.
 
-### Why is the withdrawal fee so high?
+### Perchè la tassa di prelievo è così alta?
 
-- If you're seeing higher than normal fees while using the Yearn ecosystem then it may be due to Ethereum congestion and abnormally high gas costs. Check [Ethgasstation](https://ethgasstation.info/). Your options are to wait until gas prices drop or spend the money to process your transaction now.
-- If the gas prices are crazy high, that means there is an error and the transaction will not be able to process. For instance if you are trying to deposit a token you don't have or if there is no cover available for a contract at [http://yinsure.finance/](http://yinsure.finance/).
+- Se le tariffe sono più alte del normale mentre si utilizza l'ecosistema YEARN, allora può essere dovuto alla congestione dell'Ethereum e a costi del gas anormalmente elevati. Controllare [Ethgasstation](https://ethgasstation.info/). Le vostre opzioni sono di aspettare che i prezzi del gas scendano o di spendere il denaro per elaborare la vostra transazione ora.
+- Se i prezzi del gas sono follemente alti, significa che c'è un errore e la transazione non potrà essere elaborata. Ad esempio, se state cercando di depositare un token che non avete o se non c'è una copertura disponibile per un contratto a [http://yinsure.finance/](http://yinsure.finance/).
 
-## Related Projects
+## Progetti correlati
 
 ### [Curve](https://www.curve.fi)
 
-- Curve is an exchange liquidity pool on Ethereum \(like [Uniswap](https://app.uniswap.org/#/)\) designed for \(1\) extremely efficient stablecoin trading \(2\) low risk, supplemental fee income for liquidity providers, without an opportunity cost. Curve allows users \(and smart contracts like 1inch, Paraswap, Totle and Dex.ag\) to trade between DAI and USDC with a bespoke low slippage, low fee algorithm designed specifically for stablecoins and earn fees. Behind the scenes, the liquidity pool is also supplied to the Compound protocol or yearn.finance where it generates even more income for liquidity providers.
+- urve è un liquidity pool di scambio sull'Ethereum \(come [Uniswap](https://app.uniswap.org/#/)\) progettato per \(1\) il trading di stablecoin estremamente efficiente \(2\) a basso rischio, entrate da commissioni supplementari per i fornitori di liquidità, senza costi di opportunità. Curve permette agli utenti \(e contratti intelligenti come 1inch, Paraswap, Totle e Dex.ag\) di operare tra DAI e USDC con un algoritmo a basso slittamento e a bassa commissione progettato appositamente per stablecoin e per guadagnare commissioni. Dietro le quinte, il liquidity pool viene fornito anche al protocollo Compound o YEARN.finance, dove genera un reddito ancora maggiore per i fornitori di liquidità.
 - Curve [FAQ](https://www.curve.fi/rootfaq).
 
 ### [Aave](https://app.aave.com/home)
 
-- Aave is an open source and non-custodial protocol enabling the creation of money markets. Users can earn interest on deposits and borrow assets.
+-  Aave è un protocollo open source e non detentivo che consente la creazione di mercati monetari. Gli utenti possono guadagnare interessi sui depositi e prendere in prestito asset.
 
-## Resources
+## Risorse
 
-### Where can I learn more about Yearn?
+### Dove posso saperne di più su Yearn?
 
 - [Learn Yearn](https://www.learnyearn.finance/)
 - [Medium.com/iearn](https://medium.com/iearn)
 - [yCosystem](https://ycosystem.info/)
 
-### Lists of Smart Contracts
+### Elenchi di smart contract
 
 - [https://gov.yearn.finance/t/yearn-contracts/1951](https://gov.yearn.finance/t/yearn-contracts/1951)
 - [https://etherscan.io/accounts/label/yearn-finance](https://etherscan.io/accounts/label/yearn-finance)
@@ -492,49 +492,49 @@ Ma se pensate che qualcosa possa essere migliorato, o se avete trovato un bug, n
 - [Strategy for USDC vault](https://etherscan.io/address/0xA30d1D98C502378ad61Fe71BcDc3a808CF60b897)
 - [DAI vault](https://etherscan.io/address/0xACd43E627e64355f1861cEC6d3a6688B31a6F952)
 
-### Registry of Tokens and Utility Contracts
+### Registro dei token e dei contratti di utilità
 
 - [https://docs.yearn.finance/developers/deployed-contracts-registry](https://docs.yearn.finance/developers/deployed-contracts-registry)
 
-### Vaults Detail Reference
+### Riferimento dettaglio Vault
 
 - [https://vaults.finance/](https://vaults.finance/)
 
-### Statistics
+### Statistiche
 
 - [yieldfarming.info](https://yieldfarming.info/)
 - [yVault ROI Calculator](https://py-earn.herokuapp.com/)
 - [stats.finance/yearn](https://stats.finance/yearn)
 - [Feel The Yearn](https://feel-the-yearn.vercel.app/)
-- Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
-- Voting Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
-- Vaults Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
+- Distribuzione iniziale [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
+- Statistiche di voto [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
+- Statistiche dei Vault [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
 
-### Latest Yearn News
+### Ultime notizie da Yearn
 
-- [yearn.finance](https://twitter.com/iearnfinance) - Offical Twitter of Yearn
+- [yearn.finance](https://twitter.com/iearnfinance) - Twitter ufficiale di Yearn
 - [AndreCronjeTech](https://twitter.com/AndreCronjeTech)
-- [Yearn Finance](https://medium.com/iearn) - Offical Blog
+- [Yearn Finance](https://medium.com/iearn) - Blog ufficiale
 
-### Podcasts
+### Podcast
 
-- [Unchained - Andre Cronje on YFI and the Fair Launch: ‘I’m Lazy’](https://unchainedpodcast.com/andre-cronje-of-yearn-finance-on-yfi-and-the-fair-launch-im-lazy/)
-- [Andre Cronje and the Philosophy of Yearn Finance](https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
-- [The FTX Podcast - Andre Cronje DeFI Architect](https://open.spotify.com/episode/6d14TJtQU7eB69azelpdeh)
-- [Zapper Community Call - With Andre](https://www.youtube.com/watch?v=venoiaiVZ-U)
-- [In DeFi My Money is Actually Mine. Its a Beautiful Concept But it Comes With Responsibilities - Andre Cronje](https://anchor.fm/camila-russo/episodes/In-DeFi-My-Money-is-Actually-Mine--Its-a-Beautiful-Concept-But-it-Comes-With-Responsibilities-Andre-Cronje-ehs3op)
-- [YFI: Farming the Farmers \| Andre Cronje](http://podcast.banklesshq.com/25-king-of-the-yield-farmers-andre-cronje)
+- [Unchained - Andre Cronje su YFI e sul lancio equo: 'Sono pigro'](https://unchainedpodcast.com/andre-cronje-of-yearn-finance-on-yfi-and-the-fair-launch-im-lazy/)
+- [Andre Cronje e la filosofia della Finanza di Yearn](https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
+- [Il podcast di FTX - Andre Cronje, Architetto DeFI](https://open.spotify.com/episode/6d14TJtQU7eB69azelpdeh)
+- [Chiamata della comunità Zapper - Con Andre](https://www.youtube.com/watch?v=venoiaiVZ-U)
+- [SU DeFi My Money e attualmente mio. È un concetto bellissimo, ma ha delle responsabilità - Andre Cronje](https://anchor.fm/camila-russo/episodes/In-DeFi-My-Money-is-Actually-Mine--Its-a-Beautiful-Concept-But-it-Comes-With-Responsibilities-Andre-Cronje-ehs3op)
+- [YFI: Coltivare gli agricoltori\| Andre Cronje](http://podcast.banklesshq.com/25-king-of-the-yield-farmers-andre-cronje)
 
 ### Blogs
 
-- [Yearn Finance - Offical Blog](https://medium.com/iearn)
-  - [Yinsure.finance: A new insurance primitive](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
-  - [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
+- [Yearn Finance - Blog ufficiale](https://medium.com/iearn)
+  - [Yinsure.finance: Un nuovo primitivo assicurativo](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
+  - [Vault delegati spiegati](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
   - [yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613?source=---------3------------------)
-  - [Yearn Governance Forum](https://medium.com/iearn/yearn-governance-forum-7b7c9d0300ac?source=collection_home---6------2-----------------------)
-  - [YFI rewards pool](https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
+  - [Forum sulla governance di Yearn](https://medium.com/iearn/yearn-governance-forum-7b7c9d0300ac?source=collection_home---6------2-----------------------)
+  - [YFI premia il pool di ricompense](https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
   - [YFI](https://medium.com/iearn/yfi-df84573db81)
 
-### Logos
+### Loghi
 
-- Can be found in the Discord under [\#media-resources](https://discord.com/channels/734804446353031319/736132884443955242/740325105904779326)
+- Può essere trovato su Discord qui sotto [\#media-resources](https://discord.com/channels/734804446353031319/736132884443955242/740325105904779326)
